@@ -1,0 +1,84 @@
+/* src/js/components/Home.css */
+.home-container {
+    background: linear-gradient(to bottom, #0096FF 60%, white 40%);
+    color: white; /* Change text color to white */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .home-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .app-name {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .username {
+    margin-right: 20px;
+  }
+  
+  .home-button, .logout-button {
+    text-decoration: none;
+    color: white; /* Change button text color to white */
+    margin-left: 10px;
+    font-size: 1em;
+    transition: color 0.3s;
+  }
+  
+  .home-button:hover, .logout-button:hover {
+    color: #f0f8ff; /* Lighten the hover color */
+  }
+  
+  .welcome-message {
+    margin-bottom: 20px;
+  }
+  
+  .stats-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+  }
+  
+  .stat-box {
+    background-color: #f0f8ff;
+    border: 1px solid #0096FF;
+    border-radius: 10px;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    color: #0096FF;
+    transition: transform 0.3s;
+  }
+  
+  .stat-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .stat-icon {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .stat-count {
+    font-size: 1.2em;
+  }
+  
+  .stat-box .stat-icon, .stat-box .stat-count {
+    text-decoration: none;
+    color: inherit;
+  }
