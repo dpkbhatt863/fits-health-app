@@ -1,6 +1,6 @@
-/* src/js/components/StepsTracker.css */
-.steps-container {
-  background: linear-gradient(to bottom, #0096FF 30%, white 32%);
+/* src/js/components/CalorieTracker.css */
+.calorie-container {
+  background: linear-gradient(to bottom, #0096FF 18%, white 18%);
   color: white; /* Change text color to white */
   padding: 20px;
   border-radius: 10px;
@@ -10,7 +10,7 @@
   text-align: center;
 }
 
-.steps-header {
+.calorie-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -48,7 +48,7 @@
 }
 
 .chart-container {
-    color: black;
+  color: black;
   margin-top: 20px;
 }
 
@@ -57,7 +57,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .log-button {
@@ -73,4 +73,47 @@
 
 .log-button:hover {
   background-color: #005f99;
+}
+
+.maintenance-calories {
+  margin-top: 40px;
+  text-align: left;
+  color: black;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input, .input-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.calculate-button {
+  background-color: #0096FF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.calculate-button:hover {
+  background-color: #005f99;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: black;
 }

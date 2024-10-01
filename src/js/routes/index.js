@@ -1,26 +1,27 @@
 // src/js/routes/index.js
 import Home from "../components/Home";
-import WaterIntake from "../components/WaterIntake";
-import StepsTracker from "../components/StepsTracker";
+import CalorieTracker from "../components/CalorieTracker";
 import SleepTracker from "../components/SleepTracker";
+import WaterIntake from "../components/WaterIntake";
 
 const routes = [
   {
     path: "/",
     component: Home,
+    exact: true
   },
   {
-    path: "/water-intake",
-    component: WaterIntake,
-  },
-  {
-    path: "/steps-tracker",
-    component: StepsTracker,
+    path: "/calorie-tracker",
+    component: CalorieTracker
   },
   {
     path: "/sleep-tracker",
-    component: SleepTracker,
+    component: SleepTracker
   },
+  {
+    path: "/water-intake",
+    component: WaterIntake
+  }
 ];
 
 export default routes;

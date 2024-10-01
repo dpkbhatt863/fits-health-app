@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import './Home.css'; // Import the CSS file
 
 const Home = () => {
-  const username = "Deepak Bhatt"; 
+  const username = "Deepak Bhatt"; // Replace with dynamic username if available
   const currentDate = new Date().toLocaleDateString();
 
   return (
@@ -23,9 +23,9 @@ const Home = () => {
         <p>You're doing great, don't forget to log your daily stats.</p>
       </div>
       <div className="stats-container">
-        <Link to="/steps-tracker" className="stat-box">
-          <div className="stat-icon">🚶‍♂️</div>
-          <div className="stat-count">Steps: 0</div>
+        <Link to="/calorie-tracker" className="stat-box">
+          <div className="stat-icon">🔥</div>
+          <div className="stat-count">Calories: 0</div>
         </Link>
         <Link to="/water-intake" className="stat-box">
           <div className="stat-icon">💧</div>
